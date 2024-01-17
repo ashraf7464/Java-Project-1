@@ -1,5 +1,6 @@
 package stringFunction;
 
+import java.util.Arrays;
 import java.util.Locale;
 
 public class StringFunctionDemo {
@@ -82,10 +83,10 @@ public class StringFunctionDemo {
         sb.replace(0,6, "Mahbub");
         System.out.println(sb);
 
-        sb.insert(7,6);
+        sb.insert(7,"ut");
         System.out.println(sb);
 
-        sb.delete(0,8);
+        sb.delete(0,9);
         System.out.println(sb);
    }
 
@@ -200,7 +201,7 @@ public class StringFunctionDemo {
         //splitString();
         //stringToInt();
         //intToString();
-        //stringBufferDemo();
+        stringBufferDemo();
         //reverseStringWithLoop();
         //subString();
         //concatenationOfString();
@@ -208,7 +209,7 @@ public class StringFunctionDemo {
         //reverse();
         //palindromeDemo();
         //homework1();
-        homework2();
+        //homework2();
     }
 }
 
